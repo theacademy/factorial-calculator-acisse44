@@ -32,10 +32,10 @@ public class Factorial {
 			
 		- All code should be inside the placeholders below.
 		*/
-		 try {
-			 num = Integer.parseInt(this.scanner.nextLine().trim());
+		 try { //placing in a try block b/c test is feeding non int's into scanner, throwing exception
+			 num = Integer.parseInt(this.scanner.nextLine().trim()); // read input, trim whitespace, convert to int
 			 this.num = num;
-			 if (num >= 1 && num <= 10) {
+			 if (num >= 1 && num <= 10) { //num between 1-10, inclusive
 				 return num;
 			 } else {
 				 this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
