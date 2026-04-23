@@ -61,7 +61,7 @@ public class Factorial {
 		*/
 		 int result = 1;
 		 for (int i = num; i >= 1; i--) {
-			 result *= i;
+			 result *= i; //multiplying result by each number as we count down
 		 }
 
 		//YOUR CODE ENDS HERE
