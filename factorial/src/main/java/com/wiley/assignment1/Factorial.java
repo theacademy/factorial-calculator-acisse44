@@ -46,9 +46,6 @@ public class Factorial {
 			 return -1;
 		 }
 
-
-		return -1;
-
 		//YOUR CODE ENDS HERE
 		 
 			
@@ -62,7 +59,6 @@ public class Factorial {
 		  
 		  - All code should be inside the placeholders below.
 		*/
-		 int factorial;
 		 int result = 1;
 		 for (int i = num; i >= 1; i--) {
 			 result *= i;
